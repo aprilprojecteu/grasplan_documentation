@@ -1,9 +1,10 @@
-Template for the Read the Docs tutorial
-=======================================
+Grasplan documentation
+======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Grasplan offer simple grasp planning for robotics, it's code can be found under:
 
-Read the tutorial here:
+https://github.com/aprilprojecteu/grasplan
 
-https://docs.readthedocs.io/en/stable/tutorial/
+This repository holds code that is rendered to produce a website under:
+
+https://grasplan-documentation.readthedocs.io
