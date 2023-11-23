@@ -39,13 +39,15 @@ html_css_files = [
     'custom.css',
 ]
 
+html_js_files = ['script.js']
+
 html_theme_options = {
     'pre_bg' : '#a9d3ee',
     'warn_bg': '#ffdeea',
     'head_font_family': 'Playfair Display'
 }
 
-html_extra_path = ['_files/google8518cc15a82bda49.html']
+html_extra_path = ['_files/google8518cc15a82bda49.html', 'custom.html']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

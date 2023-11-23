@@ -52,3 +52,20 @@ footer {
     background-position: center; /* Center the logo in the sidebar */
     background-size: contain; /* Adjust the size of the logo to fit the sidebar */
 }
+
+#petalContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.petal {
+  position: fixed;
+  z-index: 1000;
+  color: #ffc0cb; /* Light pink color */
+  user-select: none;
+  font-size: 24px;
+  pointer-events: none;
+}
