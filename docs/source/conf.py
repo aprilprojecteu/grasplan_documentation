@@ -28,8 +28,23 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
+html_logo = 'images/sakura_logo.png'
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
+# This line tells Sphinx where to find static files
+html_static_path = ['_static']
+
+# This line adds your custom CSS file
+html_css_files = [
+    'custom.css',
+]
+
+html_theme_options = {
+    'pre_bg' : '#a9d3ee',
+    'warn_bg': '#ffdeea',
+    'head_font_family': 'Playfair Display'
+}
+
 html_extra_path = ['_files/google8518cc15a82bda49.html']
 
 # -- Options for EPUB output

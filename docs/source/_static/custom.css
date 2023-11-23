@@ -1,0 +1,54 @@
+/* Cherry Blossom Color Palette */
+:root {
+    --cherry-blossom-pink: #ffafcc; /* Light pink */
+    --cherry-blossom-white: #f7f7f7; /* Soft white */
+    --cherry-blossom-green: #a2d5ab; /* Soft green */
+    --cherry-blossom-dark-pink: #f76a8c; /* Darker pink */
+    --cherry-blossom-dark-green: #6c7a89; /* Dark green */
+}
+
+/* Background color for the main content area */
+.wy-body-for-nav {
+    background-color: var(--cherry-blossom-white);
+}
+
+/* Header styling */
+.wy-side-nav-search,
+.wy-nav-top {
+    background-color: var(--cherry-blossom-pink);
+}
+
+/* Sidebar navigation link colors */
+.wy-menu-vertical li.current a {
+    color: var(--cherry-blossom-dark-pink);
+}
+
+/* Sidebar background color */
+.wy-side-nav-search,
+.wy-menu-vertical {
+    background-color: var(--cherry-blossom-green);
+}
+
+/* Text color for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cherry-blossom-dark-green);
+}
+
+/* Link color */
+a {
+    color: var(--cherry-blossom-dark-pink);
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--cherry-blossom-green);
+    color: var(--cherry-blossom-white);
+}
+
+/* Sidebar background image */
+.wy-side-nav-search {
+    background-image: url('/home/oscar/Downloads/logo.png'); /* Update with the correct path */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the logo in the sidebar */
+    background-size: contain; /* Adjust the size of the logo to fit the sidebar */
+}
