@@ -3,7 +3,10 @@ Welcome to Grasplan documentation!
 
 **Grasplan** offers simple grasp planning for robotics.
 
-TODO: Introduction
+.. figure:: images/grasps/grasps.png
+   :alt: grasps
+
+   Visualization of some pre-recorded grasps.
 
 .. note::
 
@@ -15,6 +18,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   introduction
    installation
    grasp-planners/grasp-planners
    functionality

@@ -56,10 +56,6 @@ and ``world_config`` is a string variable to determine where the yaml file will 
 
 Upon launching the command a window will appear that looks like this:
 
-.. .. image:: images/planning-scene-gui/rqt_planning_scene.png
-..     :width: 100%
-..     :align: center
-
 .. figure:: images/planning-scene-gui/rqt_planning_scene.png
    :alt: rqt_planning_scene
 
