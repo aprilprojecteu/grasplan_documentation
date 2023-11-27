@@ -27,8 +27,15 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Options for HTML output
+html_static_path = ['_static']
 
+# This line adds your custom CSS file
+html_css_files = [
+    'latest.css',
+]
+
+# -- Options for HTML output
+html_logo = 'images/logo/grasplan_simple_logo.png'
 html_theme = 'sphinx_rtd_theme'
 html_extra_path = ['_files/google8518cc15a82bda49.html']
 
