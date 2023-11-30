@@ -5,7 +5,12 @@ Grasp editor
 
 A GUI interface is provided to edit grasps. The grasp editor can be launched by running the following command:
 
-``roslaunch grasplan grasp_editor.launch``
+``roslaunch grasplan grasp_editor.launch object_name:=<object_name>``
+
+where object_name is one of: ``materialbox``, ``relay``, ``hot_glue_gun``, ``multimeter``, ``screwdriver``, ``klt``, ``power_drill_with_grip``
+
+for an up to date list of objects see
+`mobipick_pick_n_place/config/grasplan/object_grasps <https://github.com/DFKI-NI/mobipick/tree/noetic/mobipick_pick_n_place/config/grasplan/object_grasps>`_.
 
 The following `video  of the grasp editor <https://youtu.be/OYuSxzf0pA4>`_ demonstrates the process.
 
